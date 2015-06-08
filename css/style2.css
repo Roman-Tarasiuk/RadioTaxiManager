@@ -1,0 +1,41 @@
+#nav {
+    background-color:#eeeeee;
+    width:15%;
+    float:left;
+    padding:5px;
+	margin-top:10px;
+}
+
+.tab-content {
+    width:85%;
+    float:left;
+    padding:10px;
+}
+
+/* CSSTerm.com Simple CSS menu */
+
+.menu_simple ul {
+    margin: 0; 
+    padding: 0;
+    width:185px;
+    list-style-type: none;
+}
+
+.menu_simple ul li a {
+    text-decoration: none;
+    color: white; 
+    padding: 10.5px 11px;
+    background-color: #005555;
+    display:block;
+}
+
+/*
+.menu_simple ul li a:visited {
+    color: white;
+}
+*/
+
+.menu_simple ul li a:hover, .menu_simple ul li .current {
+    color: white;
+    background-color: #5FD367;
+}
